@@ -1,7 +1,6 @@
-import sys
+import sys, logging
 sys.path.insert(0, '../')
 from planet_wars import issue_order
-
 
 def attack_weakest_enemy_planet(state):
     # (1) If we currently have a fleet in flight, abort plan.
@@ -41,27 +40,51 @@ def spread_to_weakest_neutral_planet(state):
         return issue_order(state, strongest_planet.ID, weakest_planet.ID, strongest_planet.num_ships / 2)
 
 def takedown_largest(state): 
-    enemy_planets = [planet for planet in state.enemy_planets()
-                      if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
-    enemy_planets.sort(key=lambda p: p.num_ships)
-
-    # Enemy's largest planet
-    target_largest = enemy_planets[0]
-
-    neutral_planets = [planet for planet in state.neutral_planets()
-                      if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
-    neutral_planets.sort(key=lambda p: p.num_ships)
+    # Return failure if no planets owned
+    if not state.my_planets():
+        return False
     
-    # Change target planet to neutral one if stronger than enemy's largest
-    if neutral_planets[0].num_ships > target_largest.num_ships:
-      target_largest = neutral_planets[0]
+    # Gathers list of all planets not owned by player
+    other_planets = [planet for planet in state.enemy_planets()
+                      if not any(fleet.destination_planet == planet.ID for fleet in state.my_fleets())]
+    for planet in state.neutral_planets():
+        other_planets.append(planet)
+    
+
+    if not other_planets:
+      return False
+
+    # Sorts other planets by strongest first
+    other_planets.sort(key=lambda p: p.num_ships)
+
+    # Strongest planet not owned by player
+    other_strongest = other_planets[0]
+    
+    # If strongest already getting attacked abort plan
+    for fleet in state.my_fleets():
+        if fleet.destination_planet == other_strongest.ID:
+            return False
     
     # Find my largest planet
     my_planets = sorted(state.my_planets(), key=lambda p: p.num_ships)
-    my_largest = my_planets[0]
+    
+    my_strongest = my_planets[0] 
+    
+    needed_ships = required_to_capture(state, my_strongest, other_strongest)
+    
+    """
+    if other_strongest in state.neutral_planets():
+        needed_ships = other_strongest.num_ships + 1
+    else:
+        needed_ships = other_strongest.num_ships + \
+               state.distance(my_strongest.ID, other_strongest.ID) * other_strongest.growth_rate + 1
+    """
+    # If not enough ships had
+    if my_strongest.num_ships < needed_ships:
+        return False
 
     # Send enough ships to take over largest planet
-    return issue_order(state, my_largest.ID, target_largest.ID, required_to_capture(state, my_largest, target_largest))
+    return issue_order(state, my_strongest.ID, other_strongest.ID, needed_ships)
 
 # Returns number of ships needed to capture planet
 def required_to_capture(state, my_planet, capture_planet):
@@ -71,4 +94,6 @@ def required_to_capture(state, my_planet, capture_planet):
         return capture_planet.num_ships + \
                state.distance(my_planet.ID, capture_planet.ID) * capture_planet.growth_rate + 1
 
-    
+
+def move_fleet(state):
+    pass

@@ -26,7 +26,20 @@ def setup_behavior_tree():
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
 
-    """
+    #"""
+    logging.info("Here")
+
+    takedown_plan = Sequence(name="Takedown Largest Planet")
+    able_to_takedown = Check(have_strongest_planet)
+    takedown = Action(takedown_largest)
+    takedown_plan.child_nodes = [able_to_takedown, takedown]
+
+    evade_plan = Sequence(name="Evade Enemy Attack")
+    will_be_destroyed = Check(wont_survive_attack)
+    evade_attack = Action(move_fleet)
+    evade_plan.child_nodes = [will_be_destroyed, evade_attack]
+
+
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
     attack = Action(attack_weakest_enemy_planet)
@@ -37,13 +50,22 @@ def setup_behavior_tree():
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [offensive_plan, spread_sequence, attack.copy()]
+    root.child_nodes = [takedown_plan, evade_plan, spread_sequence, attack.copy()]
+    #"""
     """
-
     takedown_plan = Sequence(name="Takedown Largest Planet")
     able_to_takedown = Check(can_takedown_largest)
     takedown = Action(takedown_largest)
+    takedown_plan = [able_to_takedown, takedown]
 
+    spread_sequence = Sequence(name='Spread Strategy')
+    neutral_planet_check = Check(if_neutral_planet_available)
+    spread_action = Action(spread_to_weakest_neutral_planet)
+    spread_sequence.child_nodes = [neutral_planet_check, spread_action]
+
+    attack = Action(attack_weakest_enemy_planet)
+    root.child_nodes = [takedown_plan, spread_sequence, attack]
+    """
 
 
     logging.info('\n' + root.tree_to_string())
