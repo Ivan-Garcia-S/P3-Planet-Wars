@@ -52,11 +52,14 @@ def have_strongest_planet(state):
 
     # Sorts other planets by strongest first
     other_planets.sort(key=lambda p: p.num_ships)
+    other_planets.reverse()
 
     # Strongest planet not owned by player
     other_strongest = other_planets[0]
 
+    # Sorts my planets by strongest first
     my_planets = sorted(state.my_planets(), key=lambda p: p.num_ships)
+    my_planets.reverse()
 
     if not my_planets:
       return False
@@ -75,7 +78,7 @@ def wont_survive_attack(state):
   most_ships = 0
   attacking_fleet = None
 
-  for fleet in state.enemy_fleets:
+  for fleet in state.enemy_fleets():
     if fleet.destination_planet in state.my_planets() and fleet.destination_planet.num_ships > most_ships:
       attacking_fleet = fleet
       most_ships = fleet.destination_planet.num_ships
@@ -86,6 +89,9 @@ def wont_survive_attack(state):
 
   # Doesn't account for friendly planet's growth rate
   return attacking_fleet.num_ships > attacking_fleet.destination_planet.num_ships
+
+  #def join_other_my_planet(state):
+
 
 
 
