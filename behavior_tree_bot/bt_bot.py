@@ -39,6 +39,10 @@ def setup_behavior_tree():
     evade_attack = Action(move_fleet)
     evade_plan.child_nodes = [will_be_destroyed, evade_attack]
 
+    capture_closest = Sequence(name='Capture Closest')
+    capture_closest_action = Action(capture_closest_weakest_planet)
+    capture_closest.child_nodes = [capture_closest_action]
+
 
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
@@ -50,7 +54,7 @@ def setup_behavior_tree():
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [takedown_plan, evade_plan, spread_sequence, attack.copy()]
+    root.child_nodes = [takedown_plan, evade_plan, capture_closest, spread_sequence, attack.copy()]
     #"""
     """
     takedown_plan = Sequence(name="Takedown Largest Planet")

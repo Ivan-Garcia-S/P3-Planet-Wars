@@ -1,5 +1,6 @@
+import os
 import subprocess
-import os, sys
+import sys
 
 
 def show_match(bot, opponent_bot, map_num):
