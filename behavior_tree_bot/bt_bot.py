@@ -7,7 +7,8 @@
 // own.
 """
 import logging, traceback, sys, os, inspect
-logging.basicConfig(filename=__file__[:-3] +'.log', filemode='w', level=logging.DEBUG)
+
+logging.basicConfig(filename=__file__[:-3] + '.log', filemode='w', level=logging.DEBUG)
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parentdir = os.path.dirname(currentdir)
 sys.path.append(parentdir)
@@ -22,11 +23,10 @@ from planet_wars import PlanetWars, finish_turn
 # You have to improve this tree or create an entire new one that is capable
 # of winning against all the 5 opponent bots
 def setup_behavior_tree():
-
     # Top-down construction of behavior tree
     root = Selector(name='High Level Ordering of Strategies')
 
-    #"""
+    # """
     logging.info("Here")
 
     takedown_plan = Sequence(name="Takedown Largest Planet")
@@ -43,7 +43,6 @@ def setup_behavior_tree():
     capture_closest_action = Action(capture_closest_weakest_planet)
     capture_closest.child_nodes = [capture_closest_action]
 
-
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
     attack = Action(attack_weakest_enemy_planet)
@@ -54,8 +53,8 @@ def setup_behavior_tree():
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [takedown_plan, evade_plan, capture_closest, spread_sequence, attack.copy()]
-    #"""
+    root.child_nodes = [offensive_plan, evade_plan, capture_closest, takedown_plan, spread_sequence]
+    # """
     """
     takedown_plan = Sequence(name="Takedown Largest Planet")
     able_to_takedown = Check(can_takedown_largest)
@@ -71,13 +70,14 @@ def setup_behavior_tree():
     root.child_nodes = [takedown_plan, spread_sequence, attack]
     """
 
-
     logging.info('\n' + root.tree_to_string())
     return root
+
 
 # You don't need to change this function
 def do_turn(state):
     behavior_tree.execute(planet_wars)
+
 
 if __name__ == '__main__':
     logging.basicConfig(filename=__file__[:-3] + '.log', filemode='w', level=logging.DEBUG)
