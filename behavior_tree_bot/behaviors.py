@@ -167,6 +167,9 @@ def capture_closest_weakest_planet(state):
             closest_weakest_planet_distance = distance_total
             closest_weakest_planet = planet
 
+    if closest_weakest_planet is None:
+        return False
+
     if strongest_planet.num_ships > closest_weakest_planet.num_ships + 20:
         issue_order(state, strongest_planet.ID, closest_weakest_planet.ID, closest_weakest_planet.num_ships + 20)
     return False

@@ -25,7 +25,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 24.0
+DEBUG:root:Order:1 10 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -50,7 +50,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 24.0
+DEBUG:root:Order:1 10 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -75,7 +75,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 24.0
+DEBUG:root:Order:1 10 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -100,7 +100,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 24.0
+DEBUG:root:Order:1 10 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -125,6 +125,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:1 10 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -149,7 +150,6 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -174,6 +174,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:10 9 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -198,6 +199,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:10 9 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -222,7 +224,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 17 24.0
+DEBUG:root:Order:10 9 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -247,7 +249,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 17 21.0
+DEBUG:root:Order:10 9 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -272,7 +274,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 17 23.0
+DEBUG:root:Order:1 9 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -297,7 +299,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 17 25.0
+DEBUG:root:Order:10 9 25.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -322,7 +324,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 11 21.0
+DEBUG:root:Order:1 17 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -347,7 +349,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 11 26.0
+DEBUG:root:Order:10 12 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -396,6 +398,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:1 9 20.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -420,7 +423,6 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 12 32.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -445,6 +447,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:9 14 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -469,7 +472,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 12 21.0
+DEBUG:root:Order:9 14 25.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -494,6 +497,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:10 7 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -518,6 +522,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:9 17 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -542,7 +547,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 5 22.0
+DEBUG:root:Order:9 15 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -567,6 +572,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:1 13 22.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -591,6 +597,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:9 13 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -615,7 +622,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 5 25.0
+DEBUG:root:Order:1 13 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -640,7 +647,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 12 28.0
+DEBUG:root:Order:10 16 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -665,6 +672,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:9 16 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -689,7 +697,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 5 28.0
+DEBUG:root:Order:14 12 28.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -714,7 +722,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 5 29.0
+DEBUG:root:Order:9 15 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -739,7 +747,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 5 30.0
+DEBUG:root:Order:1 15 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -764,6 +772,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:13 15 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -788,7 +797,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 5 32.0
+DEBUG:root:Order:17 15 30.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -813,7 +822,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 5 33.0
+DEBUG:root:Order:16 14 26.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -838,7 +847,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 21.0
+DEBUG:root:Order:10 14 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -863,7 +872,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 0 24.0
+DEBUG:root:Order:13 14 28.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -888,7 +897,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 0 27.0
+DEBUG:root:Order:9 15 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -913,7 +922,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 27.0
+DEBUG:root:Order:1 14 30.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -938,7 +947,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 18 29.0
+DEBUG:root:Order:17 14 31.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -963,7 +972,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 6 22.0
+DEBUG:root:Order:10 14 32.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -988,6 +997,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:16 14 33.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1012,7 +1022,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 6 24.0
+DEBUG:root:Order:9 2 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1037,7 +1047,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 17 23.0
+DEBUG:root:Order:15 7 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1062,7 +1072,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:0 17 25.0
+DEBUG:root:Order:15 7 22.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1087,7 +1097,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:5 17 27.0
+DEBUG:root:Order:1 7 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1112,7 +1122,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 6 28.0
+DEBUG:root:Order:15 7 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1137,7 +1147,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:5 17 31.0
+DEBUG:root:Order:15 7 25.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1162,7 +1172,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:5 17 33.0
+DEBUG:root:Order:14 12 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1187,7 +1197,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 17 35.0
+DEBUG:root:Order:1 7 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1212,7 +1222,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 6 32.0
+DEBUG:root:Order:9 13 28.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1237,7 +1247,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:5 9 42.0
+DEBUG:root:Order:10 13 29.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1262,7 +1272,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:5 2 32.0
+DEBUG:root:Order:14 12 35.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1287,7 +1297,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 2 37.0
+DEBUG:root:Order:14 16 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1312,7 +1322,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 2 42.0
+DEBUG:root:Order:14 16 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1337,6 +1347,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:7 12 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1361,7 +1372,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 18 25.0
+DEBUG:root:Order:7 12 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1386,7 +1397,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 18 27.0
+DEBUG:root:Order:7 17 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1411,7 +1422,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 18 29.0
+DEBUG:root:Order:7 17 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1436,7 +1447,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 18 31.0
+DEBUG:root:Order:14 17 25.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1461,7 +1472,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 18 33.0
+DEBUG:root:Order:2 17 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1486,7 +1497,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:6 18 35.0
+DEBUG:root:Order:1 17 29.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1511,7 +1522,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 18 37.0
+DEBUG:root:Order:15 17 31.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1536,7 +1547,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:17 2 35.0
+DEBUG:root:Order:9 17 33.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1561,7 +1572,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 2 40.0
+DEBUG:root:Order:2 16 33.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1586,7 +1597,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:6 2 45.0
+DEBUG:root:Order:10 17 37.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1611,7 +1622,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 2 50.0
+DEBUG:root:Order:1 17 39.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1636,6 +1647,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:14 17 41.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1660,7 +1672,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 5 21.0
+DEBUG:root:Order:15 17 43.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1685,7 +1697,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 5 22.0
+DEBUG:root:Order:7 18 34.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1710,7 +1722,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:0 5 23.0
+DEBUG:root:Order:2 11 25.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1735,7 +1747,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:2 5 24.0
+DEBUG:root:Order:9 11 27.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1760,7 +1772,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:1 5 25.0
+DEBUG:root:Order:12 14 21.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1785,7 +1797,57 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:12 5 26.0
+DEBUG:root:Order:12 14 22.0
+DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
+DEBUG:root:Result: Sequence: Capture Closest -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Takedown Largest Planet
+DEBUG:root:Executing:Check: have_strongest_planet
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
+DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
+DEBUG:root:Executing:Sequence: Evade Enemy Attack
+DEBUG:root:Executing:Check: wont_survive_attack
+DEBUG:root:Result: Check: wont_survive_attack -> Failure
+DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
+DEBUG:root:Executing:Sequence: Capture Closest
+DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:1 13 21.0
+DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
+DEBUG:root:Result: Sequence: Capture Closest -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Takedown Largest Planet
+DEBUG:root:Executing:Check: have_strongest_planet
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
+DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
+DEBUG:root:Executing:Sequence: Evade Enemy Attack
+DEBUG:root:Executing:Check: wont_survive_attack
+DEBUG:root:Result: Check: wont_survive_attack -> Failure
+DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
+DEBUG:root:Executing:Sequence: Capture Closest
+DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:17 13 22.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1805,9 +1867,9 @@ DEBUG:root:Executing:Check: have_strongest_planet
 DEBUG:root:Result: Check: have_strongest_planet -> Success
 DEBUG:root:Executing:Action: takedown_largest
 INFO:root:Inside takedown largest
-INFO:root:84.0
+INFO:root:129.0
 INFO:root:Taking down largest
-DEBUG:root:Order:18 10 85.0
+DEBUG:root:Order:17 0 130.0
 DEBUG:root:Result: Action: takedown_largest -> Success
 DEBUG:root:Result: Sequence: Takedown Largest Planet -> Success
 DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Success
@@ -1816,11 +1878,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Takedown Largest Planet
 DEBUG:root:Executing:Check: have_strongest_planet
-DEBUG:root:Result: Check: have_strongest_planet -> Success
-DEBUG:root:Executing:Action: takedown_largest
-INFO:root:Inside takedown largest
-INFO:root:84.0
-DEBUG:root:Result: Action: takedown_largest -> Failure
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
 DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
 DEBUG:root:Executing:Sequence: Evade Enemy Attack
 DEBUG:root:Executing:Check: wont_survive_attack
@@ -1828,7 +1886,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:2 5 28.0
+DEBUG:root:Order:10 13 24.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1845,11 +1903,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Takedown Largest Planet
 DEBUG:root:Executing:Check: have_strongest_planet
-DEBUG:root:Result: Check: have_strongest_planet -> Success
-DEBUG:root:Executing:Action: takedown_largest
-INFO:root:Inside takedown largest
-INFO:root:84.0
-DEBUG:root:Result: Action: takedown_largest -> Failure
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
 DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
 DEBUG:root:Executing:Sequence: Evade Enemy Attack
 DEBUG:root:Executing:Check: wont_survive_attack
@@ -1857,7 +1911,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:18 5 29.0
+DEBUG:root:Order:2 13 25.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1874,11 +1928,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Takedown Largest Planet
 DEBUG:root:Executing:Check: have_strongest_planet
-DEBUG:root:Result: Check: have_strongest_planet -> Success
-DEBUG:root:Executing:Action: takedown_largest
-INFO:root:Inside takedown largest
-INFO:root:84.0
-DEBUG:root:Result: Action: takedown_largest -> Failure
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
 DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
 DEBUG:root:Executing:Sequence: Evade Enemy Attack
 DEBUG:root:Executing:Check: wont_survive_attack
@@ -1886,7 +1936,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:2 5 30.0
+DEBUG:root:Order:17 11 43.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1903,11 +1953,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Takedown Largest Planet
 DEBUG:root:Executing:Check: have_strongest_planet
-DEBUG:root:Result: Check: have_strongest_planet -> Success
-DEBUG:root:Executing:Action: takedown_largest
-INFO:root:Inside takedown largest
-INFO:root:84.0
-DEBUG:root:Result: Action: takedown_largest -> Failure
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
 DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
 DEBUG:root:Executing:Sequence: Evade Enemy Attack
 DEBUG:root:Executing:Check: wont_survive_attack
@@ -1915,7 +1961,7 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:2 5 31.0
+DEBUG:root:Order:16 11 23.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
@@ -1932,11 +1978,7 @@ DEBUG:root:Finish turn
 DEBUG:root:Executing:Selector: High Level Ordering of Strategies
 DEBUG:root:Executing:Sequence: Takedown Largest Planet
 DEBUG:root:Executing:Check: have_strongest_planet
-DEBUG:root:Result: Check: have_strongest_planet -> Success
-DEBUG:root:Executing:Action: takedown_largest
-INFO:root:Inside takedown largest
-INFO:root:84.0
-DEBUG:root:Result: Action: takedown_largest -> Failure
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
 DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
 DEBUG:root:Executing:Sequence: Evade Enemy Attack
 DEBUG:root:Executing:Check: wont_survive_attack
@@ -1944,7 +1986,82 @@ DEBUG:root:Result: Check: wont_survive_attack -> Failure
 DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
 DEBUG:root:Executing:Sequence: Capture Closest
 DEBUG:root:Executing:Action: capture_closest_weakest_planet
-DEBUG:root:Order:11 5 32.0
+DEBUG:root:Order:1 18 38.0
+DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
+DEBUG:root:Result: Sequence: Capture Closest -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Takedown Largest Planet
+DEBUG:root:Executing:Check: have_strongest_planet
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
+DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
+DEBUG:root:Executing:Sequence: Evade Enemy Attack
+DEBUG:root:Executing:Check: wont_survive_attack
+DEBUG:root:Result: Check: wont_survive_attack -> Failure
+DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
+DEBUG:root:Executing:Sequence: Capture Closest
+DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:17 18 40.0
+DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
+DEBUG:root:Result: Sequence: Capture Closest -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Takedown Largest Planet
+DEBUG:root:Executing:Check: have_strongest_planet
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
+DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
+DEBUG:root:Executing:Sequence: Evade Enemy Attack
+DEBUG:root:Executing:Check: wont_survive_attack
+DEBUG:root:Result: Check: wont_survive_attack -> Failure
+DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
+DEBUG:root:Executing:Sequence: Capture Closest
+DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:9 18 42.0
+DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
+DEBUG:root:Result: Sequence: Capture Closest -> Failure
+DEBUG:root:Executing:Sequence: Spread Strategy
+DEBUG:root:Executing:Check: if_neutral_planet_available
+DEBUG:root:Result: Check: if_neutral_planet_available -> Success
+DEBUG:root:Executing:Action: spread_to_weakest_neutral_planet
+DEBUG:root:Result: Action: spread_to_weakest_neutral_planet -> Failure
+DEBUG:root:Result: Sequence: Spread Strategy -> Failure
+DEBUG:root:Executing:Action: attack_weakest_enemy_planet
+DEBUG:root:Result: Action: attack_weakest_enemy_planet -> Failure
+DEBUG:root:Result: Selector: High Level Ordering of Strategies -> Failure
+DEBUG:root:Finish turn
+
+DEBUG:root:Executing:Selector: High Level Ordering of Strategies
+DEBUG:root:Executing:Sequence: Takedown Largest Planet
+DEBUG:root:Executing:Check: have_strongest_planet
+DEBUG:root:Result: Check: have_strongest_planet -> Failure
+DEBUG:root:Result: Sequence: Takedown Largest Planet -> Failure
+DEBUG:root:Executing:Sequence: Evade Enemy Attack
+DEBUG:root:Executing:Check: wont_survive_attack
+DEBUG:root:Result: Check: wont_survive_attack -> Failure
+DEBUG:root:Result: Sequence: Evade Enemy Attack -> Failure
+DEBUG:root:Executing:Sequence: Capture Closest
+DEBUG:root:Executing:Action: capture_closest_weakest_planet
+DEBUG:root:Order:10 18 44.0
 DEBUG:root:Result: Action: capture_closest_weakest_planet -> Failure
 DEBUG:root:Result: Sequence: Capture Closest -> Failure
 DEBUG:root:Executing:Sequence: Spread Strategy
