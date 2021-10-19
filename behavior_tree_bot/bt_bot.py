@@ -6,7 +6,11 @@
 // starting point, or you can throw it out entirely and replace it with your
 // own.
 """
-import logging, traceback, sys, os, inspect
+import inspect
+import logging
+import os
+import sys
+import traceback
 
 logging.basicConfig(filename=__file__[:-3] + '.log', filemode='w', level=logging.DEBUG)
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -29,42 +33,37 @@ def setup_behavior_tree():
     # """
     logging.info("Here")
 
+    # Takedown the strongest enemy planet, else keep building and capturing closest_weakest
     takedown_plan = Sequence(name="Takedown Largest Planet")
     able_to_takedown = Check(have_strongest_planet)
     takedown = Action(takedown_largest)
     takedown_plan.child_nodes = [able_to_takedown, takedown]
 
+    # if our planet is about to be overrun, deploy ships to our strongest planet to escape
     evade_plan = Sequence(name="Evade Enemy Attack")
     will_be_destroyed = Check(wont_survive_attack)
     evade_attack = Action(move_fleet)
     evade_plan.child_nodes = [will_be_destroyed, evade_attack]
 
+    # sends ships from our strongest planet to capture the nearby weak planets
     capture_closest = Sequence(name='Capture Closest')
     capture_closest_action = Action(capture_closest_weakest_planet)
     capture_closest.child_nodes = [capture_closest_action]
 
+    # Default offensive_plan - Didn't Use
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
-    no_neutral_check = Check(if_no_neutral_planet_available)
     attack = Action(attack_weakest_enemy_planet)
-    offensive_checks = Selector(name='Offensive Check')
-    offensive_checks.child_nodes = [largest_fleet_check, no_neutral_check]
-    offensive_plan.child_nodes = [offensive_checks, attack]
+    offensive_plan.child_nodes = [largest_fleet_check, attack]
 
-    # offensive_plan = Sequence(name='Offensive Strategy')
-    # largest_fleet_check = Check(have_largest_fleet)
-    # attack = Action(attack_weakest_enemy_planet)
-    # offensive_plan.child_nodes = [largest_fleet_check, attack]
-
+    # Default spread_sequence - Didn't Use
     spread_sequence = Sequence(name='Spread Strategy')
     neutral_planet_check = Check(if_neutral_planet_available)
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    # root.child_nodes = [takedown_plan, evade_plan, capture_closest, spread_sequence] # offensive
-    root.child_nodes = [takedown_plan, evade_plan, spread_sequence, capture_closest]  # , evade_plan
-    # root.child_nodes = [takedown_plan, spread_sequence, evade_plan, capture_closest] 121 loses
-    # """
+    root.child_nodes = [takedown_plan, capture_closest, evade_plan]  # 121 loses curr
+
     """
     takedown_plan = Sequence(name="Takedown Largest Planet")
     able_to_takedown = Check(can_takedown_largest)

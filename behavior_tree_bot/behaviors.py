@@ -8,8 +8,8 @@ from planet_wars import issue_order
 
 def attack_weakest_enemy_planet(state):
     # (1) If we currently have a fleet in flight, abort plan.
-    # if len(state.my_fleets()) >= 1:
-    #     return False
+    if len(state.my_fleets()) >= 1:
+        return False
 
     # (2) Find my strongest planet.
     strongest_planet = max(state.my_planets(), key=lambda t: t.num_ships, default=None)
@@ -100,7 +100,7 @@ def takedown_largest(state):
     return issue_order(state, my_strongest.ID, other_strongest.ID, needed_ships)
 
 
-# doesn't work
+# doesn't work, kept crashing so not running it
 def takedown_top3(state):
     logging.info("Inside takedown largest")
     # Return failure if no planets owned
