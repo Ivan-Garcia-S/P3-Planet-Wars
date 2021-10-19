@@ -45,15 +45,25 @@ def setup_behavior_tree():
 
     offensive_plan = Sequence(name='Offensive Strategy')
     largest_fleet_check = Check(have_largest_fleet)
+    no_neutral_check = Check(if_no_neutral_planet_available)
     attack = Action(attack_weakest_enemy_planet)
-    offensive_plan.child_nodes = [largest_fleet_check, attack]
+    offensive_checks = Selector(name='Offensive Check')
+    offensive_checks.child_nodes = [largest_fleet_check, no_neutral_check]
+    offensive_plan.child_nodes = [offensive_checks, attack]
+
+    # offensive_plan = Sequence(name='Offensive Strategy')
+    # largest_fleet_check = Check(have_largest_fleet)
+    # attack = Action(attack_weakest_enemy_planet)
+    # offensive_plan.child_nodes = [largest_fleet_check, attack]
 
     spread_sequence = Sequence(name='Spread Strategy')
     neutral_planet_check = Check(if_neutral_planet_available)
     spread_action = Action(spread_to_weakest_neutral_planet)
     spread_sequence.child_nodes = [neutral_planet_check, spread_action]
 
-    root.child_nodes = [offensive_plan, evade_plan, capture_closest, takedown_plan, spread_sequence]
+    # root.child_nodes = [takedown_plan, evade_plan, capture_closest, spread_sequence] # offensive
+    root.child_nodes = [takedown_plan, evade_plan, spread_sequence, capture_closest]  # , evade_plan
+    # root.child_nodes = [takedown_plan, spread_sequence, evade_plan, capture_closest] 121 loses
     # """
     """
     takedown_plan = Sequence(name="Takedown Largest Planet")
